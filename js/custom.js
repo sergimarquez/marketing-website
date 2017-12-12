@@ -1,1 +1,6 @@
-console.log("works!")
+// SERVICES
+
+$(function() {
+	// activte on scroll
+	new WOW().init();
+});
