@@ -191,6 +191,15 @@ h3 {
 /*  1 - ABOUT
 /*-----------------------------------------------------------------------------------*/
 
+#about-bg-diagonal {
+	width: 60%;
+	height: 700px;
+	float: right;
+	background-image: url(../img/bg-about.jpg);
+	border-left: 200px solid #fff;
+	border-top: 700px solid transparent;
+}
+
 #about-content-box {
 	float:left;
 	height: 700px;
