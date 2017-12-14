@@ -27,7 +27,8 @@ $(function(){
     items: 3,
     autoplay: true,
     smartSpeed: 700,
-    loop: true
+    loop: true,
+    autoplayHoverPause: true
   });
 
 });
