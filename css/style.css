@@ -627,6 +627,9 @@ form .form-control {
 	max-height: none;
 }
 
+.vesco-top-nav ul.navbar-nav > li.active > a {
+	color: #34c6d3;
+}
 
 
 
