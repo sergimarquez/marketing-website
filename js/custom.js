@@ -61,14 +61,6 @@ $(function(){
 
 });
 
-
-
-
-
-
-
-
-
 // STATS
 
 $(function(){
@@ -76,6 +68,28 @@ $(function(){
   $(".counter").counterUp({
   delay: 10,
   time: 3000
+  });
+
+});
+
+// NAVIGATION
+
+//Show/Hide background black navigation
+
+$(function(){
+
+  $(window).scroll(function(){
+
+    if($(this).scrollTop() < 50) {
+      //hide navigation bar
+      $("nav").removeClass("vesco-top-nav");
+
+    } else {
+      //show navigation bar
+      $("nav").addClass("vesco-top-nav");
+
+    }
+
   });
 
 });
