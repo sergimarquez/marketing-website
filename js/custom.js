@@ -83,10 +83,14 @@ $(function(){
     if($(this).scrollTop() < 50) {
       //hide navigation bar
       $("nav").removeClass("vesco-top-nav");
+      // hide back to top button
+      $("#back-to-top").fadeOut();
 
     } else {
       //show navigation bar
       $("nav").addClass("vesco-top-nav");
+      // show back to top button
+      $("#back-to-top").fadeIn();
     }
   });
 });
@@ -109,6 +113,7 @@ $(function(){
     }, 1250, "easeInOutExpo");
   });
 });
+
 
 
 
