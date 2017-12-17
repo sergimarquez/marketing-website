@@ -22,7 +22,6 @@
 	.vesco-nav-wrapper {
 		padding: 0;
 	}
-
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -32,6 +31,41 @@
 		color: orange;
 	}
 
+	/* Mobile Menu */
+	.navbar {
+		background: : rgba(0, 0, 0, .7);
+		padding: 0;
+	}
+	.navbar-nav {
+		float: left;
+	}
+
+	.vesco-nav-wrapper {
+		padding: 0;
+	}
+
+	/* About - remove diagonal border */
+	#about-bg-diagonal {
+		border-left: 0;
+		border-top: 0;
+		width: 100%;
+		height: 350px;
+	}
+
+	#about-content-box {
+		width: 100%;
+		height: 350px;
+	}
+
+	/* Stats */
+	.stats-item {
+		padding: 20px 0px;
+	}
+
+	/* Footer */
+	#footer-copyrights{
+		text-align: center;
+	}
 }
 
 /* Extra small devices (phones, less than 768px) */
