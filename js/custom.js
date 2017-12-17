@@ -87,16 +87,28 @@ $(function(){
     } else {
       //show navigation bar
       $("nav").addClass("vesco-top-nav");
-
     }
-
   });
-
 });
 
+// Smooth Scrolling
 
+$(function(){
 
+  $("a.smooth-scroll").click(function(event){
 
+    // prevent a link from opening the url
+    event.preventDefault();
+
+    // get/return section id (#about, #work #team etc.) 
+    let section = $(this).attr("href");
+
+    // add animation to html and body elements
+    $("html, body").animate({
+      scrollTop: $(section).offset().top -64
+    }, 1250, "easeInOutExpo");
+  });
+});
 
 
 
