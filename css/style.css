@@ -78,7 +78,8 @@ h3 {
 
 #home-cover {
 	height: 100%;
-	background-image: url("../img/bg-home.jpg");
+	background-size: cover;
+	background-image: url("../img/bg-home-2.jpg");
 }
 
 #home-content-box {
